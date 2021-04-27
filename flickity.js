@@ -154,7 +154,7 @@ if ( typeof define === 'function' && define.amd ) {
  * class helper functions
  * from bonzo https://github.com/ded/bonzo
  * MIT license
- * 
+ *
  * classie.has( elem, 'my-class' ) -> true/false
  * classie.add( elem, 'my-new-class' )
  * classie.remove( elem, 'my-unwanted-class' )
@@ -243,7 +243,7 @@ if ( typeof define === 'function' && define.amd ) {
  */
 
 ;(function () {
-    
+
 
     /**
      * Class for managing events.
@@ -1190,7 +1190,7 @@ if ( typeof define === 'function' && define.amd ) {
 
 ( function( ElemProto ) {
 
-  
+
 
   var matchesMethod = ( function() {
     // check un-prefixed
@@ -1292,7 +1292,7 @@ if ( typeof define === 'function' && define.amd ) {
 
 ( function( window, factory ) {
   /*global define: false, module: false, require: false */
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -1342,7 +1342,7 @@ utils.modulo = function( num, div ) {
 };
 
 // ----- isArray ----- //
-  
+
 var objToString = Object.prototype.toString;
 utils.isArray = function( obj ) {
   return objToString.call( obj ) == '[object Array]';
@@ -1556,7 +1556,7 @@ return utils;
 }));
 
 ( function( window, factory ) {
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -1650,7 +1650,7 @@ return Cell;
 }));
 
 ( function( window, factory ) {
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -1908,7 +1908,7 @@ return proto;
  */
 
 ( function( window, factory ) {
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -2630,7 +2630,7 @@ return Flickity;
 /*global define: false, module: false, require: false */
 
 ( function( window, factory ) {
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -2947,7 +2947,7 @@ return Unipointer;
 
 ( function( window, factory ) {
   /*global define: false, module: false, require: false */
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -3263,7 +3263,7 @@ return Unidragger;
 }));
 
 ( function( window, factory ) {
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -3641,7 +3641,7 @@ return Flickity;
 
 ( function( window, factory ) {
   /*global define: false, module: false, require: false */
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -3736,7 +3736,7 @@ return TapListener;
 // -------------------------- prev/next button -------------------------- //
 
 ( function( window, factory ) {
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -3974,7 +3974,7 @@ return PrevNextButton;
 }));
 
 ( function( window, factory ) {
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -4134,7 +4134,7 @@ return PageDots;
 }));
 
 ( function( window, factory ) {
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -4321,7 +4321,7 @@ return Player;
 }));
 
 ( function( window, factory ) {
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -4505,7 +4505,7 @@ return Flickity;
  */
 
 ( function( window, factory ) {
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -4544,7 +4544,7 @@ return Flickity;
 
 ( function( window, factory ) {
   /*global define: false, module: false, require: false */
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
@@ -4680,7 +4680,7 @@ return Flickity;
  * MIT License
  */
 
-( function( window, factory ) { 
+( function( window, factory ) {
   // universal module definition
 
   /*global define: false, module: false, require: false */
@@ -5019,7 +5019,7 @@ function makeArray( obj ) {
 
 ( function( window, factory ) {
   /*global define: false, module: false, require: false */
-  
+
   // universal module definition
 
   if ( typeof define == 'function' && define.amd ) {
