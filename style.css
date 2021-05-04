@@ -9,6 +9,7 @@ html{
 #landingsection{
   position: relative;
   left:50%;
+  bottom:40%;
 }
 
 a:link{
@@ -37,8 +38,10 @@ a:hover{
 
 #homepageimg{
   position:relative;
-  left:5%;
+  left:10%;
   top:30%;
+  height:650px;
+  top:10%;
 }
 
 body { font-family: sans-serif; }
