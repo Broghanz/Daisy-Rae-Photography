@@ -201,14 +201,11 @@ footer{
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the bannerimages stack */
-@media (max-width: 1530px) {
+/*@media (max-width: 1530px) {
   #section3 {
-    width:75%;
+    width:15%;
     display:flex;
-    flex-wrap:row-wrap;
+    flex-direction:column;
   }
-  #bannerimage{
-    height:150px;
-    width:434.25px;
-  }
-}
+
+}  */
