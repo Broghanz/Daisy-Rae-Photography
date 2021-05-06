@@ -10,6 +10,8 @@ html{
   position: relative;
   left:50%;
   bottom:40%;
+  height:200px;
+  width:35%;
 }
 #topsection3{
   display:flex;
@@ -84,7 +86,7 @@ body { font-family: sans-serif; }
   align-items: center;
   justify-content: center;
 }
-#ss a { 
+#ss a {
   padding: 10px;
  }
 #inquiryHeading {
