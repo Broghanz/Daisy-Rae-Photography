@@ -61,6 +61,71 @@ body { font-family: sans-serif; }
   counter-increment: gallery-cell;
 }
 
+#aboutHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#headingContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#headingSubline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ss a { 
+  padding: 10px;
+ }
+#inquiryHeading {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#firstname, #lastname, #email {
+  padding: 5px 5px 5px;
+  margin: 5px 5px 5px;
+}
+
+#inquiry {
+  width: 500px;
+  height: 100px;
+  resize: none;
+}
+#submit {
+  margin: 5px 5px 5px;
+}
+
+img#photographerimg {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+#aboutParagraph {
+ text-align: center;
+ padding-left: 10%;
+ padding-right: 10%;
+ font-size: 16px;
+}
+
 #section1{
   width:100%;
   height:650px;
